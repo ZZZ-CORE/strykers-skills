@@ -2,7 +2,7 @@
 
 **This is the authority for every Empire Strykers asset.** When any skill, example, or instruction disagrees with the Brand Kit, the Brand Kit wins.
 
-Text version of `ES_Official_Brand_Kit_PUB.pdf` (17 pages; fonts page marked "Last updated: June 9 2025 by Seth"). Pages that are mostly images (logo explanation, logo colorways, asset design guidelines, logo lockups) are described from the page images; check the PDF for the visuals. Obvious typos in descriptive text are corrected. Branded terms and hashtags are kept exactly as written; possible typos are listed at the end for the team to confirm.
+Text version of `ES_Official_Brand_Kit_PUB.pdf` (17 pages; fonts page marked "Last updated: June 9 2025 by Seth"). Pages that are mostly images (logo explanation, logo colorways, asset design guidelines, logo lockups) are described from the page images; check the PDF for the visuals. Obvious typos in descriptive text are corrected, and four spelling errors in the PDF are fixed here as confirmed by the team (listed at the end). Otherwise branded terms and hashtags are exactly as written.
 
 > "There was no team like ours. There is no sport like ours. There will be no empire like ours." (Welcome to the Empire Strykers family, page 2)
 
@@ -136,10 +136,10 @@ Find the topic closest to your content and use its hashtag list.
 | Topic | Hashtags |
 | --- | --- |
 | Every post | #EmpireStrykers #MASL #InlandEmpire #ProArenaSoccer #FutbolRapidoProfesional #TheGreatestSportOnTurf #InspireTheEmpire #Believe #Win #fyp #viral |
-| Gameday | #WeAreEmpire #DefendTheEmpire #BewareTheEmpire #ToyotaArena #InspireTYourEmpire |
+| Gameday | #WeAreEmpire #DefendTheEmpire #BewareTheEmpire #ToyotaArena #InspireYourEmpire |
 | Camps & clinics | #Summer #YouthCamps #Soccer #Sports #AYSO #Club #Beginner #Elite #Sparks #Fun |
 | Business mixer | #BusinessMixer #ConnectingCommunity #Social #Networking #Event #Business #Growth |
-| New partner | #Welcome_____ToTheEmpire #_____IsEmpire #CommunityParnerShip #SupportYourCommunity |
+| New partner | #Welcome_____ToTheEmpire #_____IsEmpire #CommunityPartnership #SupportYourCommunity |
 | New player | #Welcome_____ToTheEmpire #_____IsEmpire #NewPlayer #NewStryker #NewEmpire |
 | Stryking Fury | #StrykingFury #Filly #Panda #Soccer #Podcast |
 | Soccer In 60 | #SoccerIn60 #Si60 #GreaterLA #Soccer #Podcast |
@@ -156,7 +156,7 @@ Use when collaborating with or promoting a specific partner, together with the "
 | National CORE / Hope Thru Housing | #NationalCore #CORE #HopeThruHousing #HOPE #BuildingCommunities #FYI #FindingYourInspiration |
 | Loma Linda | #Goal4Life #HealthsAKick #SupportYourCommunity #HealthAndHealing |
 | Stater Bros | #StaterBrosPartner |
-| Verizon | #Verizon #ConnectingCommunites |
+| Verizon | #Verizon #ConnectingCommunities |
 | Other partners | #OAH #GOCAL #SARH #MGR #HollidayRock #Capelli |
 
 ## Pro arena soccer terms (page 16)
@@ -185,14 +185,14 @@ The official logo files and other brand assets are in the team's Drive folder ("
 
 ---
 
-## Possible typos in the kit (confirm with the team)
+## Spelling corrections to the PDF
 
-These are shown exactly as the kit has them. Until the team confirms, use the likely intended spelling and flag it as NEEDS APPROVAL.
+The team confirmed these are typos in `ES_Official_Brand_Kit_PUB.pdf` (October 2026). This text version uses the corrected spelling; always use the corrected spelling, not the PDF's.
 
-| In the kit | Likely intended |
+| In the PDF | Correct |
 | --- | --- |
-| #InspireTYourEmpire (Gameday) | #InspireYourEmpire |
-| #CommunityParnerShip (New partner) | #CommunityPartnership |
-| #ConnectingCommunites (Verizon) | #ConnectingCommunities |
-| "One color: Rogue" (logo pages) | Rouge (the color name on page 5) |
-| "Greatest Sprt On Turf", "Inspre" (phrases) | Greatest Sport On Turf, Inspire (corrected above) |
+| #InspireTYourEmpire (Gameday hashtags) | #InspireYourEmpire |
+| #CommunityParnerShip (New partner hashtags) | #CommunityPartnership |
+| #ConnectingCommunites (Verizon hashtags) | #ConnectingCommunities |
+| "One color: Rogue" (logo pages 6–8) | Rouge (the color name on page 5) |
+| "Greatest Sprt On Turf", "Inspre" (page 12 phrases) | Greatest Sport On Turf, Inspire |

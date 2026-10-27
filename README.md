@@ -1,15 +1,18 @@
 # strykers-skills
 
-Skills and instructions for the Empire Strykers marketing team (called "Seth's team" in some of the files). Download them to reuse in Claude, ChatGPT, or as plain checklists.
+Skills and instructions for the Empire Strykers marketing team (called "Seth's team" in some of the files), built for the Strykers Creative Studio custom GPT. They also work in Claude or as plain checklists.
+
+**Setting up the custom GPT?** Follow [`gpt/SETUP.md`](gpt/SETUP.md): paste [`gpt/INSTRUCTIONS.md`](gpt/INSTRUCTIONS.md) into Instructions and upload the 7 files in [`gpt/knowledge/`](gpt/knowledge/) as Knowledge.
 
 ## What's here
 
 | Folder | What it is |
 | --- | --- |
-| `downloads/` | One ready-to-upload ZIP per skill (the easiest way to grab a skill) |
+| `gpt/` | Everything for the custom GPT: setup guide, Instructions, and 7 Knowledge files covering all 25 skills |
+| `downloads/` | One ready-to-upload ZIP per skill, for Claude |
 | `skills/` | The 24 skills from the 24-skill plan, written as usable `SKILL.md` files (October 2026) |
-| `strykers-creative-studio-gpt/` | Exact backup of the retired Strykers Creative Studio ChatGPT GPT, including its one original skill (`strykers-video-promo`) |
-| `scripts/` | `build-skill-zips.sh` rebuilds the ZIPs after a skill is edited |
+| `strykers-creative-studio-gpt/` | Exact backup of the original Strykers Creative Studio GPT files, including its one original skill (`strykers-video-promo`) |
+| `scripts/` | `build-gpt-knowledge.py` and `build-skill-zips.sh` rebuild the Knowledge files and ZIPs after a skill is edited |
 
 ## Skills
 
@@ -72,24 +75,31 @@ Skills and instructions for the Empire Strykers marketing team (called "Seth's t
 
 ## How to download
 
-- **One skill:** click its **ZIP** link above, then click the download icon on the next page.
 - **Everything:** on the repository's GitHub page, click the green **Code** button, then **Download ZIP**.
+- **One skill:** click its **ZIP** link above, then click the download icon on the next page.
 
-## How to reuse
+## How to use
 
-**In Claude (as skills):** download a skill's ZIP and upload it in Claude under **Settings → Capabilities → Skills**. Repeat for each skill you want. Claude uses a skill automatically when a request matches it (for example, "check this graphic against our brand" uses Brand QA Inspector).
+**In the Strykers custom GPT (main use):** follow [`gpt/SETUP.md`](gpt/SETUP.md). Use the Instructions and the 7 combined Knowledge files in `gpt/`, not the individual ZIPs; a GPT allows only 20 Knowledge files.
 
-**In ChatGPT (as a new GPT):** create a GPT, paste `strykers-creative-studio-gpt/GPT-INSTRUCTIONS.md` into **Instructions**, and upload the `SKILL.md` files you want plus `docs/WORKFLOW.md` as **Knowledge**. Turn on **Code Interpreter** so it can cut and check video files. Don't upload `CLAUDE.md` or the handoff file; they're setup notes, not instructions.
+**In Claude (as skills):** download a skill's ZIP and upload it in Claude under **Settings → Capabilities → Skills**. Repeat for each skill you want.
 
 **Without AI:** every `SKILL.md` is readable as a checklist. Open it on GitHub and follow the steps.
 
 ## Check before you reuse
 
 - **Brand rules.** The skills use the colors and fonts from the 24-skill plan. Check them against the current official Brand Kit; the Brand Kit wins.
-- **Original GPT files.** The retired GPT's instructions and video skill include event-specific example copy ("TWO NATIONS. / ONE RIVALRY.", "USA VS MÉXICO.", "PICK A SIDE. / GET YOUR TICKETS.") and mention red and green, which aren't in the official palette. Replace the copy for your event. The new skills use placeholders like `[OPPONENT]` instead.
+- **Original GPT files.** The original GPT's instructions and video skill include event-specific example copy ("TWO NATIONS. / ONE RIVALRY.", "USA VS MÉXICO.", "PICK A SIDE. / GET YOUR TICKETS.") and mention red and green, which aren't in the official palette. Replace the copy for your event. The new skills use placeholders like `[OPPONENT]` instead.
 - **Facts.** Confirm dates, venues, opponents, and ticket details with an official source before publishing.
 - **This repository is public.** Don't add logos, fonts, player photos, footage, sponsor files, or passwords here; keep those in the team's private storage.
 
 ## Editing a skill
 
-Edit its `SKILL.md`, then run `scripts/build-skill-zips.sh` from the repository root so the ZIP in `downloads/` matches.
+Edit its `SKILL.md`, then run both scripts from the repository root so the GPT Knowledge files and ZIPs match:
+
+```bash
+python3 scripts/build-gpt-knowledge.py
+scripts/build-skill-zips.sh
+```
+
+Then re-upload the changed Knowledge file to the GPT.

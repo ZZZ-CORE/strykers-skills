@@ -32,7 +32,7 @@ Follow the Brand Kit messaging: tagline "Empire Strykers: Inspiring the Empire T
 2. Write the Spanish caption with the same meaning and energy; adapt, don't translate word for word.
 3. Use the Brand Kit's branded terms, spelled exactly: Goal, Hattrick, Wallascora, Power Play, Power Kill, 6th Attacker, Golaso, Golazo, Blue Card, Yellow Card, Red Card, Fan Fest, Overtime. In Spanish, the sport is "Fútbol Rápido Profesional" (#FutbolRapidoProfesional); don't call it "futsal", which is a different sport.
 4. Add hashtags from the Brand Kit: the "every post" list plus the closest topic list (Gameday, Camps & Clinics, Business Mixer, New Partner, New Player, Stryking Fury, Soccer In 60, TST) and any partner list. Use the spellings in `BRAND-KIT.md`, which corrects a few typos in the PDF (for example #InspireYourEmpire, not #InspireTYourEmpire).
-5. Check names, dates, times, and the call to action against the fact list.
+5. Check names, dates, times, and the call to action against the fact list. Spell player names and nicknames exactly as in the team roster (`ROSTER.md`), including accents (Marco Fabián, "El Niño de Oro"); don't state a jersey number (all are TBD).
 
 ## Output
 

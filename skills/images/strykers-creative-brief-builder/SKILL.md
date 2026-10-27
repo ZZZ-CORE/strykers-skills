@@ -25,7 +25,7 @@ Turn "make a game-day post" into a brief good enough to produce a first draft, w
 
 1. Work out the goal (sell tickets, announce, celebrate, inform) and the audience.
 2. Pick the platform and size. Common starting points: 1080×1080 square, 1080×1350 portrait feed post, 1080×1920 vertical story/reel. Check current platform guidance if unsure.
-3. Draft headline and supporting copy. Use placeholders like `[OPPONENT]` or `[DATE]` for any fact not supplied; never fill them in from guesswork.
+3. Take game details (date, Pacific time, opponent, home/away, venue, promo code, ticket link, parking) from the team schedule (`SCHEDULE.md`), labeled USER-SUPPLIED (team schedule). Draft headline and supporting copy. Use placeholders like `[OPPONENT]` or `[DATE]` for any fact not supplied; never fill them in from guesswork.
 4. List the assets needed and whether each one has been provided.
 5. Add the brand rules: official colors, title font by season (Impact in season, Beachwood UltraBold off season), original logo files only.
 6. List open questions.

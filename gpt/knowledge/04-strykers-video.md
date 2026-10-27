@@ -6,7 +6,7 @@ Knowledge file for the Strykers Creative Studio GPT. Generated from the `SKILL.m
 
 **Use when:** Create premium vertical Empire Strykers promotional videos from supplied source footage, preserving recognizable real frames and producing a verified 1080x1920 MP4.
 
-> Original skill from the Strykers Creative Studio GPT. Its example on-screen lines ("TWO NATIONS. / ONE RIVALRY.", "USA VS MÉXICO.", "THE RIVALRY RETURNS.", "PICK A SIDE. / GET YOUR TICKETS.") came from one rivalry campaign: treat them as examples and replace them with approved copy for the current event. Its mention of red and green treatments is overridden by the Brand Kit, which allows only the seven official colors.
+> Original skill from the Strykers Creative Studio GPT. Its example on-screen lines ("TWO NATIONS. / ONE RIVALRY.", "USA VS MÉXICO.", "THE RIVALRY RETURNS.", "PICK A SIDE. / GET YOUR TICKETS.") were written for the USA vs Mexico pre-season event (PRE-001, Nov 8, 2026, in 09-strykers-schedule.md). For any other game, replace them with approved copy for that game. Its mention of red and green treatments is overridden by the Brand Kit, which allows only the seven official colors.
 
 Create a 20–25 second, 1080×1920 vertical sports promo from the user’s supplied video. The supplied footage is the creative centerpiece: never invent players, stadium action, logos, or replacement soccer footage.
 
@@ -121,6 +121,7 @@ Make video text look on brand and easy to read, in English and Spanish.
 
 1. **Graphics spec.** For each graphic give: text, font, color (from White `#FFFFFF`, Silver Sand `#B8BABC`, Aluminium `#A3A5A9`, Mid Grey `#6E6E71`, Black `#000000`, Plum `#953493`, Rouge `#9F3E97`), position, in/out time, and animation.
    - Title cards, lower thirds (player name and number), score / match-info bars.
+   - Take names, nicknames, and positions from the team roster (`ROSTER.md`), spelled exactly with accents. Jersey numbers are TBD: use `[NUMBER]` marked NEEDS APPROVAL.
 2. **Captions.** Write English captions, then Spanish captions that carry the same meaning (not word-for-word).
    - 1–2 short lines per caption; on screen long enough to read (about 1 second minimum).
    - Keep text out of areas covered by app buttons on vertical video (roughly the bottom and right edges); check current platform guidance.

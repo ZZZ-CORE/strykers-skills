@@ -8,15 +8,17 @@ Welcome, Strykers team! This repository helps our creative tools make on-brand g
 
 Use approved Strykers logos, colors, fonts, player images, sponsors, and event information. When something is not verified, mark it `NEEDS APPROVAL` rather than guessing.
 
-**Setting up the custom GPT?** Follow [`gpt/SETUP.md`](gpt/SETUP.md): paste [`gpt/INSTRUCTIONS.md`](gpt/INSTRUCTIONS.md) into Instructions and upload the 9 files in [`gpt/knowledge/`](gpt/knowledge/) (Brand Kit included) as Knowledge.
+**Setting up the custom GPT?** Follow [`gpt/SETUP.md`](gpt/SETUP.md): paste [`gpt/INSTRUCTIONS.md`](gpt/INSTRUCTIONS.md) into Instructions and upload the 11 files in [`gpt/knowledge/`](gpt/knowledge/) (Brand Kit, player roster, and game schedule included) as Knowledge.
 
 ## What's here
 
 | Folder | What it is |
 | --- | --- |
 | `brand-kit/` | The official Brand Kit PDF and its full text version |
-| `gpt/` | Everything for the custom GPT: setup guide, Instructions, and 9 Knowledge files (Brand Kit plus all 25 skills) |
-| `downloads/` | One ready-to-upload ZIP per skill, for Claude (each includes the Brand Kit text) |
+| `roster/` | The team's player roster (`strykers-players.tsv`, 18 players) and a readable version with usage rules (`ROSTER.md`) |
+| `schedule/` | The team's 2026-27 game schedule (`strykers-games.tsv`, 25 games) and a readable version with usage rules (`SCHEDULE.md`) |
+| `gpt/` | Everything for the custom GPT: setup guide, Instructions, and 11 Knowledge files (Brand Kit, all 25 skills, roster, and schedule) |
+| `downloads/` | One ready-to-upload ZIP per skill, for Claude (each includes the Brand Kit text, roster, and schedule) |
 | `skills/` | The 24 skills from the 24-skill plan, written as usable `SKILL.md` files (October 2026) |
 | `strykers-creative-studio-gpt/` | Exact backup of the original Strykers Creative Studio GPT files, including its one original skill (`strykers-video-promo`) |
 | `scripts/` | `build-gpt-knowledge.py` and `build-skill-zips.sh` rebuild the Knowledge files and ZIPs after a skill is edited |
@@ -87,7 +89,7 @@ Use approved Strykers logos, colors, fonts, player images, sponsors, and event i
 
 ## How to use
 
-**In the Strykers custom GPT (main use):** follow [`gpt/SETUP.md`](gpt/SETUP.md). Use the Instructions and the 9 Knowledge files in `gpt/`, not the individual ZIPs; a GPT allows only 20 Knowledge files.
+**In the Strykers custom GPT (main use):** follow [`gpt/SETUP.md`](gpt/SETUP.md). Use the Instructions and the 11 Knowledge files in `gpt/`, not the individual ZIPs; a GPT allows only 20 Knowledge files.
 
 **In Claude (as skills):** download a skill's ZIP and upload it in Claude under **Settings → Capabilities → Skills**. Repeat for each skill you want.
 
@@ -102,7 +104,7 @@ Use approved Strykers logos, colors, fonts, player images, sponsors, and event i
 
 ## Editing a skill
 
-Edit its `SKILL.md` (or `brand-kit/BRAND-KIT.md`), then run both scripts from the repository root so the GPT Knowledge files and ZIPs match:
+Edit its `SKILL.md` (or `brand-kit/BRAND-KIT.md`, the roster in `roster/strykers-players.tsv`, or the schedule in `schedule/strykers-games.tsv`), then run both scripts from the repository root so the GPT Knowledge files and ZIPs match:
 
 ```bash
 python3 scripts/build-gpt-knowledge.py

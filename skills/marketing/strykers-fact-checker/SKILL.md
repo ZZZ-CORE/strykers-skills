@@ -31,7 +31,7 @@ Use what you can actually open; don't guess a website address.
 ## Steps
 
 1. List every fact in the content: opponent, date, start time, venue, city, score, player names and numbers, prices, promo details.
-2. Check each against an official source. Check branded terms and hashtags against the Brand Kit spelling.
+2. Check each against an official source. Check branded terms and hashtags against the Brand Kit spelling. Check player names, nicknames, and positions against the team roster (`ROSTER.md`); roster stats and awards count as USER-SUPPLIED (team roster), and every jersey number is TBD, so any number in the content is NEEDS APPROVAL. Check dates, times, opponents, venues, and promo codes against the team schedule (`SCHEDULE.md`); those count as USER-SUPPLIED (team schedule) until confirmed on the official site. Times there are Pacific, and matchups are listed visitor first.
 3. Label each:
    - **VERIFIED:** matches an official source (give the source).
    - **USER-SUPPLIED:** given by the user; not independently checked.

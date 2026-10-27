@@ -19,6 +19,7 @@ Real players must look like themselves, in their real kit.
 
 - The original photo.
 - The edited image.
+- The team roster (`ROSTER.md`) for the player's name and position. Jersey numbers there are TBD, so read numbers from the original photo, never from memory.
 
 ## Rules
 

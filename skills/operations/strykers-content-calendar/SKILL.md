@@ -26,7 +26,7 @@ Plan what goes out when, track it, and learn from real results.
 
 ## Steps
 
-1. **Plan.** Build the calendar around verified game dates. Typical game-week beats: announcement, countdown, game day, final score, recap.
+1. **Plan.** Build the calendar around the game dates in the team schedule (`SCHEDULE.md`; times are Pacific, matchups listed visitor first). Confirm dates on the official site before publishing. Typical game-week beats: announcement, countdown, game day, final score, recap.
 2. **Track.** Give each piece a stage: Idea → Brief → In production → In review → Approved → Scheduled → Posted.
 3. **Review.** Using only the data supplied, compare posts by reach, engagement rate, video views/watch time, link clicks, and ticket sales if available.
 4. **Recommend.** Suggest changes backed by that data (for example, "vertical video averaged 2× the engagement of static posts across these 12 posts").

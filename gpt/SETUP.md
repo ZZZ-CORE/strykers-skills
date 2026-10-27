@@ -6,11 +6,11 @@ The Strykers team can download this repository and load the official Brand Kit a
 
 | GPT builder field | What to put there |
 | --- | --- |
-| **Instructions** | Everything in [`gpt/INSTRUCTIONS.md`](INSTRUCTIONS.md) (copy and paste; about 5,300 characters, under the 8,000 limit) |
-| **Knowledge** | All 9 files in [`gpt/knowledge/`](knowledge/) |
+| **Instructions** | Everything in [`gpt/INSTRUCTIONS.md`](INSTRUCTIONS.md) (copy and paste; about 6,100 characters, under the 8,000 limit) |
+| **Knowledge** | All 11 files in [`gpt/knowledge/`](knowledge/) |
 | **Capabilities** | Web Search (to check event facts), Image Generation (for graphics), Code Interpreter & Data Analysis (to make and check image and video files) |
 
-The 9 Knowledge files:
+The 11 Knowledge files:
 
 | File | What's inside |
 | --- | --- |
@@ -23,19 +23,21 @@ The 9 Knowledge files:
 | `05-strykers-marketing.md` | Campaign Style Selector, Game & Player Fact Checker, Bilingual Caption Writer, Sponsor & Partnership Manager |
 | `06-strykers-operations.md` | Creative Approval Manager, Asset Library & Rights Manager, Platform Format Optimizer, Content Calendar & Performance |
 | `07-strykers-workflow.md` | Video production workflow (intake, creative pass, technical pass, handoff) |
+| `08-strykers-roster.md` | The current player roster (18 players) with rules: exact name spelling, no guessed jersey numbers (all TBD), stats labeled as team-supplied |
+| `09-strykers-schedule.md` | The 2026-27 game schedule (25 games) with rules: Pacific times, visitor-first matchups, no invented times, Toyota Arena address and parking |
 
 ## Steps
 
 1. Download the repository: on GitHub, click the green **Code** button, then **Download ZIP**, and unzip it.
 2. Open the Strykers Creative Studio GPT in the GPT builder and go to **Configure**.
 3. Replace the **Instructions** with the contents of `gpt/INSTRUCTIONS.md`.
-4. Under **Knowledge**, remove old skill files, then upload all 9 files from `gpt/knowledge/`, including the Brand Kit PDF and `00-strykers-brand-kit.md`.
+4. Under **Knowledge**, remove old skill files, then upload all 11 files from `gpt/knowledge/`, including the Brand Kit PDF, `00-strykers-brand-kit.md`, `08-strykers-roster.md`, and `09-strykers-schedule.md`.
 5. Turn on the capabilities listed above.
 6. Test the GPT (below) before sharing it with the team, then save.
 
 ## Things to know
 
-- **File limit.** A GPT can have up to 20 Knowledge files. This setup uses 9, leaving room for other team references. Don't upload the 25 ZIPs in `downloads/`; those are for Claude.
+- **File limit.** A GPT can have up to 20 Knowledge files. This setup uses 11, leaving room for other team references. Don't upload the 25 ZIPs in `downloads/`; those are for Claude.
 - **Knowledge is reference material only.** It doesn't install tools or connect Canva, Higgsfield, GitHub, or any other service. Those need supported connections or Actions, set up and tested separately. Until then, the GPT should give manual upload steps instead of claiming a transfer happened.
 - **Logos.** The logo files themselves aren't in this repository; they're in the team's Drive brand folder (Brand Kit page 17). Upload them in the chat when you need them in a design. The GPT is told never to draw or generate the logo.
 - **Video tools.** Making and checking MP4 files depends on what Code Interpreter can run. If a check can't be done, the GPT should say so.
@@ -62,6 +64,14 @@ More tests worth running:
 - "Make the logo purple and add a crown." It should refuse to alter the logo and explain why.
 - "Use red and green for this rivalry post." It should explain the Brand Kit allows only its seven colors.
 - "Make a co-branded post with us, MASL, and Verizon." With 3 logos, the Strykers logo should go in the center.
+
+## Updating the roster
+
+Edit `roster/strykers-players.tsv` (for example, fill in jersey numbers when they're confirmed, or add a signing), run `python3 scripts/build-gpt-knowledge.py`, then re-upload `08-strykers-roster.md` to the GPT.
+
+## Updating the schedule
+
+Edit `schedule/strykers-games.tsv` (for example, when a time is set or a game moves), run `python3 scripts/build-gpt-knowledge.py`, then re-upload `09-strykers-schedule.md` to the GPT.
 
 ## Updating the Brand Kit
 

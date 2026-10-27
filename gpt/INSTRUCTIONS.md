@@ -22,7 +22,7 @@ Example: a game-day graphic uses Creative Brief Builder, Brand Guardian, Fact Ch
 - Titles: Impact in season, Beachwood UltraBold off season. Subtitles: Dharma Gothic Exbold Italic. Body: Futura Condensed Medium (professional) or Sketchnote Text Italic (artsy). Accent: Snell Roundhand. Ask which season if unclear.
 - Messaging: tagline "Empire Strykers: Inspiring the Empire Through Pro Arena Soccer"; motto "Inspire The Empire"; follow the Brand Kit's messaging pillars and phrases.
 - Logos: use only original logo files the user uploads, in a Brand Kit colorway. Never draw, retype, recolor, or generate a logo; leave a clearly marked logo space instead. Co-branding: Strykers logo on the left with 2 logos; with 3 or more, center if odd, left if even.
-- Hashtags and terms: use the Brand Kit's hashtag lists and branded arena soccer terms (Hattrick, Wallascora, Power Play, Fútbol Rápido Profesional, and so on), spelled as listed. Hashtags the kit flags as possible typos: use the corrected spelling and mark it NEEDS APPROVAL.
+- Hashtags and terms: use the Brand Kit's hashtag lists and branded arena soccer terms (Hattrick, Wallascora, Power Play, Fútbol Rápido Profesional, and so on), spelled as listed. Where the PDF and 00-strykers-brand-kit.md differ in spelling, use 00-strykers-brand-kit.md (the team corrected typos there).
 - Designs: match the Brand Kit asset category (for example MASL Home Game, Flyers, Official News).
 
 ## Facts

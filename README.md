@@ -1,97 +1,95 @@
 # strykers-skills
 
-Saved skills and instructions built for the Empire Strykers marketing team (called "Seth's team" in some of the files). Download them to reuse in Claude, ChatGPT, or as plain checklists.
+Skills and instructions for the Empire Strykers marketing team (called "Seth's team" in some of the files). Download them to reuse in Claude, ChatGPT, or as plain checklists.
 
 ## What's here
 
-### `strykers-creative-studio-gpt/` — from the retired Strykers Creative Studio GPT
-
-Saved exactly as exported before the GPT was removed.
-
-| File | What it is | Reuse it for |
-| --- | --- | --- |
-| `skills/strykers-video-promo/SKILL.md` | Step-by-step skill for 20–25 second vertical promo videos (1080×1920) cut from real game footage | Making Reels/TikTok/Shorts promos |
-| `GPT-INSTRUCTIONS.md` | The GPT's full instructions | Setting up a new GPT or Claude project |
-| `docs/WORKFLOW.md` | Intake → creative → technical check → handoff checklist | Any video request, with or without AI |
-| `docs/24-SKILL-LIBRARY.md` | Brand colors and fonts, plus a plan for 24 more skills | Brand reference; ideas for future skills (only the video promo skill was built) |
-| `references/stryker_agent_skill.md` | Pasted Canva and Higgsfield tool notes | Background only |
-| `README.md`, `CLAUDE.md`, `docs/CLAUDE-CODE-HANDOFF.md` | The old project's setup notes | Not needed for reuse |
+| Folder | What it is |
+| --- | --- |
+| `downloads/` | One ready-to-upload ZIP per skill (the easiest way to grab a skill) |
+| `skills/` | The 24 skills from the 24-skill plan, written as usable `SKILL.md` files (October 2026) |
+| `strykers-creative-studio-gpt/` | Exact backup of the retired Strykers Creative Studio ChatGPT GPT, including its one original skill (`strykers-video-promo`) |
+| `scripts/` | `build-skill-zips.sh` rebuilds the ZIPs after a skill is edited |
 
 ## Skills
 
-**Built** means the skill has a `SKILL.md` you can download and use now. **Planned** means it was only described in `docs/24-SKILL-LIBRARY.md`; that file has each one's full description, inputs, and outputs if you want to build it.
+**Original** = used in the Strykers Creative Studio GPT. **New draft** = written in October 2026 from the GPT's 24-skill plan (`strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`) and not yet tested in real production, so check the results the first few times you use one.
 
 ### Video
 
-| Skill | What it does | Status |
-| --- | --- | --- |
-| Strykers Video Promo | Turns real game footage into a 20–25 second vertical (1080×1920) promo video, keeping players recognizable and checking the final file before handoff | **Built** |
-| Video Storyboard Director | Plans scenes, shots, timing, and transitions for promo videos | Planned |
-| Motion Graphics & Captions | Specifies titles, lower thirds, score graphics, and English/Spanish captions | Planned |
-| Video Brand & Continuity Inspector | Reviews finished video for logo, player, caption, and sponsor accuracy | Planned |
-| Video Export Validator | Checks format, size, length, frame rate, audio, and captions before release | Planned |
+| Skill | What it does | Status | Download |
+| --- | --- | --- | --- |
+| [Strykers Video Promo](strykers-creative-studio-gpt/skills/strykers-video-promo/SKILL.md) | Turns real game footage into a 20–25 second vertical (1080×1920) promo video, keeping players recognizable and checking the final file | Original | [ZIP](downloads/strykers-video-promo.zip) |
+| [Video Storyboard Director](skills/video/strykers-storyboard-director/SKILL.md) | Plans scenes, shots, timing, text, and transitions before editing | New draft | [ZIP](downloads/strykers-storyboard-director.zip) |
+| [Motion Graphics & Captions](skills/video/strykers-motion-captions/SKILL.md) | Specifies titles, name tags, and score graphics; writes English and Spanish caption files | New draft | [ZIP](downloads/strykers-motion-captions.zip) |
+| [Video Brand & Continuity Inspector](skills/video/strykers-video-continuity-qa/SKILL.md) | Reviews finished video for logo warping, face changes, glitches, and caption or sponsor errors | New draft | [ZIP](downloads/strykers-video-continuity-qa.zip) |
+| [Video Export Validator](skills/video/strykers-export-validator/SKILL.md) | Checks format, size, length, audio, playback, and approval before release; READY or NOT READY | New draft | [ZIP](downloads/strykers-export-validator.zip) |
 
 ### Brand
 
-| Skill | What it does | Status |
-| --- | --- | --- |
-| Brand Guardian | Applies the official colors, fonts, logo rules, and messaging to any creative | Planned |
-| Logo & Lockup Validator | Checks logos and sponsor co-branding are used correctly and not altered | Planned |
-| Brand Typography Manager | Picks the right in-season or off-season fonts and text hierarchy | Planned |
-| Brand QA Inspector | Final brand check that marks an asset PASS, NEEDS REVIEW, or BLOCKED | Planned |
+| Skill | What it does | Status | Download |
+| --- | --- | --- | --- |
+| [Brand Guardian](skills/brand/strykers-brand-guardian/SKILL.md) | Applies the official colors, fonts, logo rules, and messaging to any creative | New draft | [ZIP](downloads/strykers-brand-guardian.zip) |
+| [Logo & Lockup Validator](skills/brand/strykers-logo-validator/SKILL.md) | Checks logos and sponsor co-branding are the real artwork, used correctly | New draft | [ZIP](downloads/strykers-logo-validator.zip) |
+| [Brand Typography Manager](skills/brand/strykers-typography-manager/SKILL.md) | Picks in-season or off-season fonts and checks text is readable | New draft | [ZIP](downloads/strykers-typography-manager.zip) |
+| [Brand QA Inspector](skills/brand/strykers-brand-qa/SKILL.md) | Final brand check before release; PASS, NEEDS REVIEW, or BLOCKED | New draft | [ZIP](downloads/strykers-brand-qa.zip) |
 
 ### Images and graphics
 
-| Skill | What it does | Status |
-| --- | --- | --- |
-| Creative Brief Builder | Turns a short request into a full design brief | Planned |
-| Background Removal Studio | Cuts out players, the mascot, or logos onto a transparent background | Planned |
-| Player Image Integrity | Makes sure AI edits don't change players' faces, jerseys, or numbers | Planned |
-| Social Template Factory | Builds reusable game-day, final-score, player, ticket, and community templates | Planned |
+| Skill | What it does | Status | Download |
+| --- | --- | --- | --- |
+| [Creative Brief Builder](skills/images/strykers-creative-brief-builder/SKILL.md) | Turns a short request into a full design brief, without making up facts | New draft | [ZIP](downloads/strykers-creative-brief-builder.zip) |
+| [Background Removal Studio](skills/images/strykers-background-removal/SKILL.md) | Cuts out players, the mascot, or logos onto a transparent background and checks the result | New draft | [ZIP](downloads/strykers-background-removal.zip) |
+| [Player Image Integrity](skills/images/strykers-player-image-integrity/SKILL.md) | Makes sure edits don't change players' faces, jerseys, or numbers | New draft | [ZIP](downloads/strykers-player-image-integrity.zip) |
+| [Social Template Factory](skills/images/strykers-social-template-factory/SKILL.md) | Builds reusable game-day, final-score, player, ticket, and community templates | New draft | [ZIP](downloads/strykers-social-template-factory.zip) |
 
 ### Canva and Higgsfield
 
-| Skill | What it does | Status |
-| --- | --- | --- |
-| Canva Export & Handoff | Prepares a graphic for Canva as a PNG, editable file, or team template | Planned |
-| Canva Brand Kit Setup | Guides setting up the Strykers brand inside Canva | Planned |
-| Higgsfield Video Handoff | Prepares an image and motion brief for animating in Higgsfield | Planned |
-| Integration & Account Checker | Checks which creative tools are actually connected | Planned |
+| Skill | What it does | Status | Download |
+| --- | --- | --- | --- |
+| [Canva Export & Handoff](skills/integrations/strykers-canva-handoff/SKILL.md) | Gets a finished graphic into Canva as a PNG, editable file, or team template | New draft | [ZIP](downloads/strykers-canva-handoff.zip) |
+| [Canva Brand Kit Setup](skills/integrations/strykers-canva-brand-kit/SKILL.md) | Guides setting up the Strykers logos, colors, fonts, and templates in Canva | New draft | [ZIP](downloads/strykers-canva-brand-kit.zip) |
+| [Higgsfield Video Handoff](skills/integrations/strykers-higgsfield-handoff/SKILL.md) | Prepares an image and motion brief for animating in Higgsfield, then reviews the video | New draft | [ZIP](downloads/strykers-higgsfield-handoff.zip) |
+| [Integration & Account Checker](skills/integrations/strykers-account-checker/SKILL.md) | Checks which creative tools are actually connected before relying on them | New draft | [ZIP](downloads/strykers-account-checker.zip) |
 
 ### Marketing
 
-| Skill | What it does | Status |
-| --- | --- | --- |
-| Campaign Style Selector | Recommends a campaign look while keeping to the brand rules | Planned |
-| Game & Player Fact Checker | Checks opponents, dates, venues, scores, and player names | Planned |
-| Bilingual Caption Writer | Writes English and Spanish social captions in the Strykers voice | Planned |
-| Sponsor & Partnership Manager | Keeps sponsor names, logos, and placement correct | Planned |
+| Skill | What it does | Status | Download |
+| --- | --- | --- | --- |
+| [Campaign Style Selector](skills/marketing/strykers-campaign-style-selector/SKILL.md) | Suggests 2–3 campaign looks that stay on brand | New draft | [ZIP](downloads/strykers-campaign-style-selector.zip) |
+| [Game & Player Fact Checker](skills/marketing/strykers-fact-checker/SKILL.md) | Checks opponents, dates, venues, scores, names, and prices against official sources | New draft | [ZIP](downloads/strykers-fact-checker.zip) |
+| [Bilingual Caption Writer](skills/marketing/strykers-bilingual-captions/SKILL.md) | Writes English and Spanish social captions in the Strykers voice | New draft | [ZIP](downloads/strykers-bilingual-captions.zip) |
+| [Sponsor & Partnership Manager](skills/marketing/strykers-sponsor-manager/SKILL.md) | Keeps sponsor names, logos, placement, and required wording correct | New draft | [ZIP](downloads/strykers-sponsor-manager.zip) |
 
 ### Team operations
 
-| Skill | What it does | Status |
-| --- | --- | --- |
-| Creative Approval Manager | Tracks drafts, revision requests, and sign-off before release | Planned |
-| Asset Library & Rights Manager | Keeps track of approved assets and where they can be used | Planned |
-| Platform Format Optimizer | Resizes and checks graphics and video for each social platform | Planned |
-| Content Calendar & Performance | Plans the content calendar and reviews what performed well | Planned |
+| Skill | What it does | Status | Download |
+| --- | --- | --- | --- |
+| [Creative Approval Manager](skills/operations/strykers-approval-manager/SKILL.md) | Tracks drafts, feedback, and sign-off; blocks release without independent approval | New draft | [ZIP](downloads/strykers-approval-manager.zip) |
+| [Asset Library & Rights Manager](skills/operations/strykers-asset-library/SKILL.md) | Keeps an inventory of approved assets and where each can be used | New draft | [ZIP](downloads/strykers-asset-library.zip) |
+| [Platform Format Optimizer](skills/operations/strykers-platform-optimizer/SKILL.md) | Resizes and checks graphics and video for each social platform | New draft | [ZIP](downloads/strykers-platform-optimizer.zip) |
+| [Content Calendar & Performance](skills/operations/strykers-content-calendar/SKILL.md) | Plans the content calendar and reviews real performance data | New draft | [ZIP](downloads/strykers-content-calendar.zip) |
 
 ## How to download
 
+- **One skill:** click its **ZIP** link above, then click the download icon on the next page.
 - **Everything:** on the repository's GitHub page, click the green **Code** button, then **Download ZIP**.
-- **One file:** open the file on GitHub and click the download icon (or **Raw**, then save the page).
 
 ## How to reuse
 
-**In Claude (as a skill):** put the `strykers-video-promo` folder (the folder holding `SKILL.md`) into a ZIP file, then upload it in Claude under **Settings → Capabilities → Skills**. Claude will use it when you ask for a Strykers promo video.
+**In Claude (as skills):** download a skill's ZIP and upload it in Claude under **Settings → Capabilities → Skills**. Repeat for each skill you want. Claude uses a skill automatically when a request matches it (for example, "check this graphic against our brand" uses Brand QA Inspector).
 
-**In ChatGPT (as a new GPT):** create a GPT, paste `GPT-INSTRUCTIONS.md` into **Instructions**, and upload `SKILL.md`, `WORKFLOW.md`, and `24-SKILL-LIBRARY.md` as **Knowledge**. Turn on **Code Interpreter** so it can cut and check video files. Don't upload `CLAUDE.md` or the handoff file; they're setup notes, not instructions.
+**In ChatGPT (as a new GPT):** create a GPT, paste `strykers-creative-studio-gpt/GPT-INSTRUCTIONS.md` into **Instructions**, and upload the `SKILL.md` files you want plus `docs/WORKFLOW.md` as **Knowledge**. Turn on **Code Interpreter** so it can cut and check video files. Don't upload `CLAUDE.md` or the handoff file; they're setup notes, not instructions.
 
-**Without AI:** use `docs/WORKFLOW.md` as a checklist for any promo.
+**Without AI:** every `SKILL.md` is readable as a checklist. Open it on GitHub and follow the steps.
 
 ## Check before you reuse
 
-- **Example copy is event-specific.** The default video script uses "TWO NATIONS. / ONE RIVALRY.", "USA VS MÉXICO." and "PICK A SIDE. / GET YOUR TICKETS." Replace these with copy for your event.
-- **Colors and fonts.** The official palette and fonts are listed in `docs/24-SKILL-LIBRARY.md`. The video skill also mentions red and green, which aren't in that palette, so use them only for campaigns that call for them. Check everything against the current official Brand Kit.
+- **Brand rules.** The skills use the colors and fonts from the 24-skill plan. Check them against the current official Brand Kit; the Brand Kit wins.
+- **Original GPT files.** The retired GPT's instructions and video skill include event-specific example copy ("TWO NATIONS. / ONE RIVALRY.", "USA VS MÉXICO.", "PICK A SIDE. / GET YOUR TICKETS.") and mention red and green, which aren't in the official palette. Replace the copy for your event. The new skills use placeholders like `[OPPONENT]` instead.
 - **Facts.** Confirm dates, venues, opponents, and ticket details with an official source before publishing.
 - **This repository is public.** Don't add logos, fonts, player photos, footage, sponsor files, or passwords here; keep those in the team's private storage.
+
+## Editing a skill
+
+Edit its `SKILL.md`, then run `scripts/build-skill-zips.sh` from the repository root so the ZIP in `downloads/` matches.

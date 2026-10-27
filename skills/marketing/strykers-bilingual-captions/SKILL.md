@@ -7,6 +7,8 @@ description: Writes English and Spanish social media captions in the Empire Stry
 
 > New draft skill (October 2026), written from skill 19 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Write captions that sound like the Strykers in both English and Spanish.
 
 ## When to use
@@ -22,14 +24,14 @@ Write captions that sound like the Strykers in both English and Spanish.
 
 ## Brand voice
 
-Energetic, proud, family-friendly, inclusive, rooted in the Inland Empire community. Brand line: "Inspire The Empire."
+Follow the Brand Kit messaging: tagline "Empire Strykers: Inspiring the Empire Through Pro Arena Soccer"; motto "Inspire The Empire"; pillars Community First, Always; Fast, Fierce, and Fun; Underdog Spirit with Big League Swagger; Inspired by Legacy, Building for the Future; Open Doors, Open Hearts; Content That Connects; Inspire Your Empire. Favor the kit's frequently used phrases (Defend The Empire, We Are Empire, Beware The Empire, Rise With Empire, The Greatest Sport On Turf, Futbol Rapido Profesional, Inland Empire's Only True Professional Team).
 
 ## Steps
 
 1. Write the English caption: hook, key detail, call to action.
 2. Write the Spanish caption with the same meaning and energy; adapt, don't translate word for word.
-3. Use arena soccer terms the team already uses. If unsure of a Spanish term, ask. Don't call it "futsal"; that's a different sport.
-4. Add hashtags only from the team's approved list. If there's no list, suggest a few and mark them for approval.
+3. Use the Brand Kit's branded terms, spelled exactly: Goal, Hattrick, Wallascora, Power Play, Power Kill, 6th Attacker, Golaso, Golazo, Blue Card, Yellow Card, Red Card, Fan Fest, Overtime. In Spanish, the sport is "Fútbol Rápido Profesional" (#FutbolRapidoProfesional); don't call it "futsal", which is a different sport.
+4. Add hashtags from the Brand Kit: the "every post" list plus the closest topic list (Gameday, Camps & Clinics, Business Mixer, New Partner, New Player, Stryking Fury, Soccer In 60, TST) and any partner list. Hashtags the kit flags as possible typos get the corrected spelling, marked NEEDS APPROVAL.
 5. Check names, dates, times, and the call to action against the fact list.
 
 ## Output

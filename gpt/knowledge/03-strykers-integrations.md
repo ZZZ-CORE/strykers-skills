@@ -8,6 +8,8 @@ Knowledge file for the Strykers Creative Studio GPT. Generated from the `SKILL.m
 
 > New draft skill (October 2026), written from skill 09 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Get finished graphics into Canva in the form the user needs.
 
 ### When to use
@@ -54,6 +56,8 @@ Get finished graphics into Canva in the form the user needs.
 
 > New draft skill (October 2026), written from skill 10 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Set up Canva so everyone on the team designs on brand by default.
 
 ### When to use
@@ -62,9 +66,9 @@ Set up Canva so everyone on the team designs on brand by default.
 
 ### Inputs
 
-- Approved logo files (all colorways).
-- Official colors: `#FFFFFF`, `#B8BABC`, `#A3A5A9`, `#6E6E71`, `#000000`, `#953493`, `#9F3E97`.
-- Brand font files, with confirmation the license allows uploading them to Canva.
+- Approved logo files in every Brand Kit colorway: primary crest, secondary jet mark, and wordmark (from the team's Drive brand folder).
+- Official colors: White `#FFFFFF`, Silver Sand `#B8BABC`, Aluminium `#A3A5A9`, Mid Grey `#6E6E71`, Black `#000000`, Plum `#953493`, Rouge `#9F3E97`.
+- Brand fonts (all from Adobe Fonts), with confirmation the license allows using them in Canva.
 - Existing templates to include.
 - Who should have edit vs view access.
 
@@ -73,7 +77,7 @@ Set up Canva so everyone on the team designs on brand by default.
 1. Confirm the team's Canva plan supports Brand Kits and brand templates; features vary by plan.
 2. In Canva's brand area, create or open the Empire Strykers Brand Kit.
 3. Add logos (original files only), the colors above, and fonts (Impact, Beachwood UltraBold, Dharma Gothic Exbold Italic, Futura Condensed Medium, Sketchnote Text Italic, Snell Roundhand) where licensed.
-4. Add approved templates and set them as brand templates if available.
+4. Add approved templates, ideally one per Brand Kit asset category (Office News, Official News, Team News Oct–Apr and May–Sep, Flyers, Published, MASL Home Game, MASL Away Game), and set them as brand templates if available.
 5. Set team access and add a short guide on which templates to use when.
 6. Spot-check a few existing designs against the kit.
 
@@ -102,6 +106,8 @@ Plus an inventory of assets loaded, and anything still missing.
 **Use when:** Prepares an Empire Strykers image for Higgsfield video (animate it, add cinematic motion, or use it as a video concept reference), writes the motion brief, and reviews the returned video. Use when someone wants to turn a Strykers graphic or photo into motion in Higgsfield.
 
 > New draft skill (October 2026), written from skill 11 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
+
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
 
 Take a still image into Higgsfield without losing the logo or the players' real look.
 
@@ -160,6 +166,8 @@ Take a still image into Higgsfield without losing the logo or the players' real 
 **Use when:** Checks which creative tools (such as Canva and Higgsfield) are actually connected and authorized in the current AI workspace, and explains manual alternatives for those that aren't. Use before any step that depends on sending work to an outside tool, or when someone asks what's connected.
 
 > New draft skill (October 2026), written from skill 12 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
+
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
 
 Know what's really connected before promising anything.
 

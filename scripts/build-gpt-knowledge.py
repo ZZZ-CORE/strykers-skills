@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
-"""Rebuilds gpt/knowledge/ from the SKILL.md files, one Markdown file per category.
+"""Rebuilds gpt/knowledge/: the Brand Kit text, then one Markdown file per skill category.
 
 Run from anywhere after editing any skill: python3 scripts/build-gpt-knowledge.py
 """
 import pathlib
 import re
+import shutil
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "gpt" / "knowledge"
 ORIGINAL_VIDEO_SKILL = ROOT / "strykers-creative-studio-gpt/skills/strykers-video-promo/SKILL.md"
 WORKFLOW = ROOT / "strykers-creative-studio-gpt/docs/WORKFLOW.md"
+BRAND_KIT = ROOT / "brand-kit/BRAND-KIT.md"
 
 CATEGORIES = [
     ("brand", "01-strykers-brand.md", "Brand"),
@@ -24,8 +26,9 @@ ORIGINAL_NOTE = (
     "> Original skill from the Strykers Creative Studio GPT. Its example on-screen lines "
     "(\"TWO NATIONS. / ONE RIVALRY.\", \"USA VS MÉXICO.\", \"THE RIVALRY RETURNS.\", "
     "\"PICK A SIDE. / GET YOUR TICKETS.\") came from one rivalry campaign: treat them as "
-    "examples and replace them with approved copy for the current event. Use only the "
-    "official brand colors unless the user confirms a campaign calls for red or green.\n"
+    "examples and replace them with approved copy for the current event. Its mention of red "
+    "and green treatments is overridden by the Brand Kit, which allows only the seven official "
+    "colors.\n"
 )
 
 
@@ -59,6 +62,8 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for old in OUT.glob("*.md"):
         old.unlink()
+    (OUT / "00-strykers-brand-kit.md").write_text(BRAND_KIT.read_text(encoding="utf-8"), encoding="utf-8")
+    shutil.copyfile(BRAND_KIT.with_name("ES_Official_Brand_Kit_PUB.pdf"), OUT / "ES_Official_Brand_Kit_PUB.pdf")
     for folder, filename, label in CATEGORIES:
         skills = sorted((ROOT / "skills" / folder).glob("*/SKILL.md"), key=skill_number)
         parts = []
@@ -79,8 +84,8 @@ def main():
         "`docs/WORKFLOW.md`.\n\n" + demote(workflow),
         encoding="utf-8",
     )
-    for f in sorted(OUT.glob("*.md")):
-        print(f"{f.relative_to(ROOT)}  {len(f.read_text(encoding='utf-8')):,} chars")
+    for f in sorted(OUT.glob("*.md")) + [OUT / "ES_Official_Brand_Kit_PUB.pdf"]:
+        print(f"{f.relative_to(ROOT)}  {f.stat().st_size:,} bytes")
 
 
 if __name__ == "__main__":

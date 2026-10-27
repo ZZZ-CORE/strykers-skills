@@ -6,7 +6,7 @@ Knowledge file for the Strykers Creative Studio GPT. Generated from the `SKILL.m
 
 **Use when:** Create premium vertical Empire Strykers promotional videos from supplied source footage, preserving recognizable real frames and producing a verified 1080x1920 MP4.
 
-> Original skill from the Strykers Creative Studio GPT. Its example on-screen lines ("TWO NATIONS. / ONE RIVALRY.", "USA VS MÉXICO.", "THE RIVALRY RETURNS.", "PICK A SIDE. / GET YOUR TICKETS.") came from one rivalry campaign: treat them as examples and replace them with approved copy for the current event. Use only the official brand colors unless the user confirms a campaign calls for red or green.
+> Original skill from the Strykers Creative Studio GPT. Its example on-screen lines ("TWO NATIONS. / ONE RIVALRY.", "USA VS MÉXICO.", "THE RIVALRY RETURNS.", "PICK A SIDE. / GET YOUR TICKETS.") came from one rivalry campaign: treat them as examples and replace them with approved copy for the current event. Its mention of red and green treatments is overridden by the Brand Kit, which allows only the seven official colors.
 
 Create a 20–25 second, 1080×1920 vertical sports promo from the user’s supplied video. The supplied footage is the creative centerpiece: never invent players, stadium action, logos, or replacement soccer footage.
 
@@ -47,6 +47,8 @@ Verify the export exists and inspect metadata for 1080×1920, 20–25 seconds, a
 **Use when:** Plans Empire Strykers promo videos as a scene-by-scene storyboard and shot list (timing, framing, footage source, on-screen text, transitions, audio). Use before editing any game promo, player feature, ticket campaign, or social video.
 
 > New draft skill (October 2026), written from skill 13 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
+
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
 
 Plan the video before cutting it, using footage the team actually has.
 
@@ -101,6 +103,8 @@ Plus: a list of missing assets, and the status of every fact used (VERIFIED / US
 
 > New draft skill (October 2026), written from skill 14 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Make video text look on brand and easy to read, in English and Spanish.
 
 ### When to use
@@ -115,7 +119,7 @@ Make video text look on brand and easy to read, in English and Spanish.
 
 ### Steps
 
-1. **Graphics spec.** For each graphic give: text, font, color (from `#FFFFFF`, `#B8BABC`, `#A3A5A9`, `#6E6E71`, `#000000`, `#953493`, `#9F3E97`), position, in/out time, and animation.
+1. **Graphics spec.** For each graphic give: text, font, color (from White `#FFFFFF`, Silver Sand `#B8BABC`, Aluminium `#A3A5A9`, Mid Grey `#6E6E71`, Black `#000000`, Plum `#953493`, Rouge `#9F3E97`), position, in/out time, and animation.
    - Title cards, lower thirds (player name and number), score / match-info bars.
 2. **Captions.** Write English captions, then Spanish captions that carry the same meaning (not word-for-word).
    - 1–2 short lines per caption; on screen long enough to read (about 1 second minimum).
@@ -139,6 +143,7 @@ Make video text look on brand and easy to read, in English and Spanish.
 ### Rules
 
 - Spanish copy should be reviewed by a fluent speaker on the team before publishing.
+- Spell branded terms exactly as in the Brand Kit (Hattrick, Wallascora, Power Play, Power Kill, 6th Attacker, Golaso, Golazo, Blue Card).
 - Don't translate player names or the slogan "Inspire The Empire" unless the team has an approved version.
 
 ### Before you finish
@@ -153,6 +158,8 @@ Make video text look on brand and easy to read, in English and Spanish.
 **Use when:** Reviews an Empire Strykers video for brand consistency, player fidelity, caption and sponsor accuracy, and AI glitches between frames, and reports exactly what was checked. Use on any edited or AI-generated Strykers video before approval.
 
 > New draft skill (October 2026), written from skill 15 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
+
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
 
 Catch logo warping, face changes, wrong captions, and glitches before the video goes out.
 
@@ -201,6 +208,8 @@ Plus a line saying how the review was done (for example, "frames every 1 s, 25 f
 **Use when:** Checks a finished Empire Strykers video file before release (format, codec, size, duration, frame rate, audio, captions, playback, approval status) and marks it READY or NOT READY. Use on every final MP4 before it is published or delivered.
 
 > New draft skill (October 2026), written from skill 16 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
+
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
 
 Confirm the file really exists and meets the brief before anyone posts it.
 

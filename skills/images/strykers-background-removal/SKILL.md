@@ -7,6 +7,8 @@ description: Removes the background from photos of Empire Strykers players, the 
 
 > New draft skill (October 2026), written from skill 06 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Make clean transparent cutouts without changing the person or object.
 
 ## When to use

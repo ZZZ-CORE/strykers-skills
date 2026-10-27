@@ -7,6 +7,8 @@ description: Plans Empire Strykers promo videos as a scene-by-scene storyboard a
 
 > New draft skill (October 2026), written from skill 13 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Plan the video before cutting it, using footage the team actually has.
 
 ## When to use

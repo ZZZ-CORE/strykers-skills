@@ -7,6 +7,8 @@ description: Checks a finished Empire Strykers video file before release (format
 
 > New draft skill (October 2026), written from skill 16 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Confirm the file really exists and meets the brief before anyone posts it.
 
 ## When to use

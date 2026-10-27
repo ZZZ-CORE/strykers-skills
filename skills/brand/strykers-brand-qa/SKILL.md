@@ -7,6 +7,8 @@ description: Final brand check of an Empire Strykers asset before approval or ex
 
 > New draft skill (October 2026), written from skill 04 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Give a final, evidence-based brand verdict on a finished asset.
 
 ## When to use
@@ -16,17 +18,17 @@ Give a final, evidence-based brand verdict on a finished asset.
 ## Inputs
 
 - The finished asset (image, video, PDF, or design link).
-- The Brand Kit or brand basics (colors `#FFFFFF`, `#B8BABC`, `#A3A5A9`, `#6E6E71`, `#000000`, `#953493`, `#9F3E97`; fonts per season).
+- The Brand Kit or brand basics (colors White `#FFFFFF`, Silver Sand `#B8BABC`, Aluminium `#A3A5A9`, Mid Grey `#6E6E71`, Black `#000000`, Plum `#953493`, Rouge `#9F3E97`; fonts per season).
 - The fact list for the asset (dates, venue, opponent, prices), with sources if available.
 
 ## Steps
 
 Check each item and record what you actually looked at:
 
-1. **Logos:** original approved artwork, unaltered, readable.
-2. **Colors:** within the official palette (or a confirmed campaign exception).
+1. **Logos:** original approved artwork, unaltered, readable; an allowed colorway; co-branded lockups in the Brand Kit order (Strykers center for an odd number of logos, left for even).
+2. **Colors:** only the seven Brand Kit colors. The kit allows no others for marketing assets or merchandise.
 3. **Fonts:** correct by season and role; substitutions named.
-4. **Name and messaging:** "Empire Strykers" spelled exactly; tone is family-friendly and on brand.
+4. **Name and messaging:** "Empire Strykers" spelled exactly; tone fits the Brand Kit messaging pillars; hashtags and branded terms (Hattrick, Wallascora, Power Play, and so on) spelled as in the kit.
 5. **Facts:** every date, venue, opponent, price, and player name is verified or marked NEEDS APPROVAL.
 6. **People:** players' faces, jerseys, and numbers are unaltered.
 7. **Layout:** text readable on a phone; nothing important cut off or under platform buttons.

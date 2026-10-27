@@ -7,6 +7,8 @@ description: Chooses and checks Empire Strykers fonts and text hierarchy (in-sea
 
 > New draft skill (October 2026), written from skill 03 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Pick the right fonts and make text easy to read. The official Brand Kit wins if it differs from the list below.
 
 ## Brand fonts
@@ -19,6 +21,8 @@ Pick the right fonts and make text easy to read. The official Brand Kit wins if 
 | Body, professional | Futura Condensed Medium |
 | Body, artsy | Sketchnote Text Italic |
 | Accent | Snell Roundhand |
+
+All six fonts are available from Adobe Fonts (Adobe.com), per the Brand Kit.
 
 ## When to use
 

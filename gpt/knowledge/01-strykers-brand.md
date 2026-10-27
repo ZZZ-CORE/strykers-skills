@@ -8,17 +8,22 @@ Knowledge file for the Strykers Creative Studio GPT. Generated from the `SKILL.m
 
 > New draft skill (October 2026), written from skill 01 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Keep every Empire Strykers deliverable on brand. The official Empire Strykers Brand Kit is the authority; the basics below are a summary and lose to the Brand Kit wherever they differ.
 
 ### Brand basics
 
 - **Name:** always "Empire Strykers" (with a "y").
-- **Colors:** `#FFFFFF`, `#B8BABC`, `#A3A5A9`, `#6E6E71`, `#000000`, `#953493`, `#9F3E97`.
+- **Colors:** White `#FFFFFF`, Silver Sand `#B8BABC`, Aluminium `#A3A5A9`, Mid Grey `#6E6E71`, Black `#000000`, Plum `#953493`, Rouge `#9F3E97`. These are the **only** colors allowed for marketing assets and merchandise.
+- **Logos:** primary crest, secondary jet mark, and "THE EMPIRE STRYKERS" wordmark, in full color or one color from the palette. One-color primary logo only when printing limits colors and the Strykers approve it. Other colorways are rough-draft only.
+- **Co-branding:** 2 logos: Strykers left (or top). 3 or more: Strykers in the center if the count is odd, on the left if even.
 - **Titles:** Impact in season; Beachwood UltraBold off season.
 - **Subtitles:** Dharma Gothic Exbold Italic.
 - **Body text:** Futura Condensed Medium (professional) or Sketchnote Text Italic (artsy).
 - **Accent text:** Snell Roundhand.
-- **Messaging:** "Inspire The Empire"; Inland Empire community; family-friendly professional arena soccer; team pride, energy, and inclusivity.
+- **Messaging:** tagline "Empire Strykers: Inspiring the Empire Through Pro Arena Soccer"; motto "Inspire The Empire". Pillars: Community First, Always; Fast, Fierce, and Fun; Underdog Spirit with Big League Swagger; Inspired by Legacy, Building for the Future; Open Doors, Open Hearts; Content That Connects; Inspire Your Empire. Be bold, be original, bring heritage, bring futuristic flair.
+- **Hashtags and terms:** use the Brand Kit's hashtag lists and branded arena soccer terms, spelled as listed.
 
 ### When to use
 
@@ -33,7 +38,7 @@ Keep every Empire Strykers deliverable on brand. The official Empire Strykers Br
 
 ### Steps
 
-1. Ask for the Brand Kit and approved assets. If they aren't available, use the brand basics above and say the Brand Kit wasn't checked.
+1. Open the Brand Kit (`BRAND-KIT.md`, or the original PDF). Ask the team for the original logo files (kept in the team's Drive brand folder).
 2. Confirm in season or off season (ask if unclear) to choose the title font.
 3. Write a brand-locked brief: colors, fonts, logo file to use, tone of messaging, and platform size.
 4. Use only original logo files supplied by the team. Never redraw, recolor, retype, or AI-generate a logo. If no logo file is available, leave a clearly marked logo space.
@@ -56,8 +61,7 @@ A brand brief (for new work) or a compliance summary (for reviews):
 ### If something is missing
 
 - **Font not available:** name the closest available substitute and mark it NEEDS REVIEW.
-- **Color outside the palette:** flag it; allow it only if the user confirms the campaign calls for it.
-- **Brand Kit not provided:** say so in the summary.
+- **Color outside the palette:** not allowed in final marketing assets or merchandise. Flag it and replace it with a Brand Kit color.
 
 ### Before you finish
 
@@ -71,6 +75,8 @@ A brand brief (for new work) or a compliance summary (for reviews):
 **Use when:** Checks that Empire Strykers logos, wordmarks, and sponsor co-branding are the original approved artwork, used at correct proportions, placement, contrast, and colorway. Use when a design includes any Strykers or partner logo, or before exporting branded work.
 
 > New draft skill (October 2026), written from skill 02 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
+
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
 
 Make sure every logo in a design is the real, approved artwork used correctly.
 
@@ -91,10 +97,11 @@ Make sure every logo in a design is the real, approved artwork used correctly.
 2. Check:
    - **Artwork:** same shapes, lettering, and details; nothing redrawn, retyped, or AI-generated.
    - **Proportions:** not stretched, squashed, skewed, or cropped.
-   - **Colorway:** an approved version (for example full color, all white, all black) per the Brand Kit.
+   - **Colorway:** full color, or one color in White, Silver Sand, Aluminium, Mid Grey, Black, Plum, or Rouge. The one-color primary logo is allowed only when printing limits colors and the Strykers approved it. Other colorways of the secondary logo or wordmark are rough-draft only; final use needs Strykers approval.
+   - **Secondary logo (jet mark) stroke:** minimum 0.5, maximum 3.0.
    - **Contrast:** clearly readable against the background.
    - **Clear space and placement:** not crowded by text or other graphics; not covered by platform buttons or captions.
-   - **Co-branding:** partner logos placed and sized as approved; neither logo altered to fit.
+   - **Co-branding lockups:** logos separated by thin divider lines. 2 logos: Strykers on the left (horizontal) or on top (vertical). 3 or more: Strykers in the center if the number of logos is odd, on the left if even. No logo altered to fit.
 3. Treat any AI-generated or reconstructed logo as a failure, even if it looks close.
 
 ### Output
@@ -122,6 +129,8 @@ Finish with an overall result: **Pass** only if every logo passes every check.
 
 > New draft skill (October 2026), written from skill 03 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Pick the right fonts and make text easy to read. The official Brand Kit wins if it differs from the list below.
 
 ### Brand fonts
@@ -134,6 +143,8 @@ Pick the right fonts and make text easy to read. The official Brand Kit wins if 
 | Body, professional | Futura Condensed Medium |
 | Body, artsy | Sketchnote Text Italic |
 | Accent | Snell Roundhand |
+
+All six fonts are available from Adobe Fonts (Adobe.com), per the Brand Kit.
 
 ### When to use
 
@@ -182,6 +193,8 @@ A typography spec (role, font, size, color, where it appears) or a font check:
 
 > New draft skill (October 2026), written from skill 04 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Give a final, evidence-based brand verdict on a finished asset.
 
 ### When to use
@@ -191,17 +204,17 @@ Give a final, evidence-based brand verdict on a finished asset.
 ### Inputs
 
 - The finished asset (image, video, PDF, or design link).
-- The Brand Kit or brand basics (colors `#FFFFFF`, `#B8BABC`, `#A3A5A9`, `#6E6E71`, `#000000`, `#953493`, `#9F3E97`; fonts per season).
+- The Brand Kit or brand basics (colors White `#FFFFFF`, Silver Sand `#B8BABC`, Aluminium `#A3A5A9`, Mid Grey `#6E6E71`, Black `#000000`, Plum `#953493`, Rouge `#9F3E97`; fonts per season).
 - The fact list for the asset (dates, venue, opponent, prices), with sources if available.
 
 ### Steps
 
 Check each item and record what you actually looked at:
 
-1. **Logos:** original approved artwork, unaltered, readable.
-2. **Colors:** within the official palette (or a confirmed campaign exception).
+1. **Logos:** original approved artwork, unaltered, readable; an allowed colorway; co-branded lockups in the Brand Kit order (Strykers center for an odd number of logos, left for even).
+2. **Colors:** only the seven Brand Kit colors. The kit allows no others for marketing assets or merchandise.
 3. **Fonts:** correct by season and role; substitutions named.
-4. **Name and messaging:** "Empire Strykers" spelled exactly; tone is family-friendly and on brand.
+4. **Name and messaging:** "Empire Strykers" spelled exactly; tone fits the Brand Kit messaging pillars; hashtags and branded terms (Hattrick, Wallascora, Power Play, and so on) spelled as in the kit.
 5. **Facts:** every date, venue, opponent, price, and player name is verified or marked NEEDS APPROVAL.
 6. **People:** players' faces, jerseys, and numbers are unaltered.
 7. **Layout:** text readable on a phone; nothing important cut off or under platform buttons.

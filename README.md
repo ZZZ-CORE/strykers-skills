@@ -1,15 +1,22 @@
-# strykers-skills
+# Empire Strykers Creative Studio
 
-Skills and instructions for the Empire Strykers marketing team (called "Seth's team" in some of the files), built for the Strykers Creative Studio custom GPT. They also work in Claude or as plain checklists.
+Welcome, Strykers team! This repository helps our creative tools make on-brand graphics, videos, captions, and campaign materials. It holds the official Brand Kit and the skills for the Strykers Creative Studio custom GPT (in some of the files the team is called "Seth's team"). The skills also work in Claude or as plain checklists.
 
-**Setting up the custom GPT?** Follow [`gpt/SETUP.md`](gpt/SETUP.md): paste [`gpt/INSTRUCTIONS.md`](gpt/INSTRUCTIONS.md) into Instructions and upload the 7 files in [`gpt/knowledge/`](gpt/knowledge/) as Knowledge.
+## Brand first
+
+**The [Empire Strykers Official Brand Kit](brand-kit/ES_Official_Brand_Kit_PUB.pdf) is the most important file here.** Every skill and the GPT follow it first, and it wins over anything else. A text version, [`brand-kit/BRAND-KIT.md`](brand-kit/BRAND-KIT.md), lists every rule: the seven official colors, logo colorways, fonts, design categories, co-branded lockups, messaging, hashtags, and arena soccer terms.
+
+Use approved Strykers logos, colors, fonts, player images, sponsors, and event information. When something is not verified, mark it `NEEDS APPROVAL` rather than guessing.
+
+**Setting up the custom GPT?** Follow [`gpt/SETUP.md`](gpt/SETUP.md): paste [`gpt/INSTRUCTIONS.md`](gpt/INSTRUCTIONS.md) into Instructions and upload the 9 files in [`gpt/knowledge/`](gpt/knowledge/) (Brand Kit included) as Knowledge.
 
 ## What's here
 
 | Folder | What it is |
 | --- | --- |
-| `gpt/` | Everything for the custom GPT: setup guide, Instructions, and 7 Knowledge files covering all 25 skills |
-| `downloads/` | One ready-to-upload ZIP per skill, for Claude |
+| `brand-kit/` | The official Brand Kit PDF and its full text version |
+| `gpt/` | Everything for the custom GPT: setup guide, Instructions, and 9 Knowledge files (Brand Kit plus all 25 skills) |
+| `downloads/` | One ready-to-upload ZIP per skill, for Claude (each includes the Brand Kit text) |
 | `skills/` | The 24 skills from the 24-skill plan, written as usable `SKILL.md` files (October 2026) |
 | `strykers-creative-studio-gpt/` | Exact backup of the original Strykers Creative Studio GPT files, including its one original skill (`strykers-video-promo`) |
 | `scripts/` | `build-gpt-knowledge.py` and `build-skill-zips.sh` rebuild the Knowledge files and ZIPs after a skill is edited |
@@ -80,7 +87,7 @@ Skills and instructions for the Empire Strykers marketing team (called "Seth's t
 
 ## How to use
 
-**In the Strykers custom GPT (main use):** follow [`gpt/SETUP.md`](gpt/SETUP.md). Use the Instructions and the 7 combined Knowledge files in `gpt/`, not the individual ZIPs; a GPT allows only 20 Knowledge files.
+**In the Strykers custom GPT (main use):** follow [`gpt/SETUP.md`](gpt/SETUP.md). Use the Instructions and the 9 Knowledge files in `gpt/`, not the individual ZIPs; a GPT allows only 20 Knowledge files.
 
 **In Claude (as skills):** download a skill's ZIP and upload it in Claude under **Settings → Capabilities → Skills**. Repeat for each skill you want.
 
@@ -88,14 +95,14 @@ Skills and instructions for the Empire Strykers marketing team (called "Seth's t
 
 ## Check before you reuse
 
-- **Brand rules.** The skills use the colors and fonts from the 24-skill plan. Check them against the current official Brand Kit; the Brand Kit wins.
-- **Original GPT files.** The original GPT's instructions and video skill include event-specific example copy ("TWO NATIONS. / ONE RIVALRY.", "USA VS MÉXICO.", "PICK A SIDE. / GET YOUR TICKETS.") and mention red and green, which aren't in the official palette. Replace the copy for your event. The new skills use placeholders like `[OPPONENT]` instead.
+- **Follow the Brand Kit.** Only the seven official colors; logos only from the team's Drive brand folder, never redrawn; fonts from Adobe Fonts.
+- **Original GPT files.** The original GPT's instructions and video skill include event-specific example copy ("TWO NATIONS. / ONE RIVALRY.", "USA VS MÉXICO.", "PICK A SIDE. / GET YOUR TICKETS.") and mention red and green, which the Brand Kit doesn't allow. Replace the copy for your event. The new skills use placeholders like `[OPPONENT]` instead.
 - **Facts.** Confirm dates, venues, opponents, and ticket details with an official source before publishing.
-- **This repository is public.** Don't add logos, fonts, player photos, footage, sponsor files, or passwords here; keep those in the team's private storage.
+- **This repository is public.** The Brand Kit here is the published version. Don't add logo files, font files, player photos, footage, sponsor contracts, or passwords; keep those in the team's private storage.
 
 ## Editing a skill
 
-Edit its `SKILL.md`, then run both scripts from the repository root so the GPT Knowledge files and ZIPs match:
+Edit its `SKILL.md` (or `brand-kit/BRAND-KIT.md`), then run both scripts from the repository root so the GPT Knowledge files and ZIPs match:
 
 ```bash
 python3 scripts/build-gpt-knowledge.py
@@ -103,3 +110,5 @@ scripts/build-skill-zips.sh
 ```
 
 Then re-upload the changed Knowledge file to the GPT.
+
+Thanks for helping us **Inspire The Empire!**

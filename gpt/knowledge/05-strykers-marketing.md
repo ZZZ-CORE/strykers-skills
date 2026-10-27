@@ -8,6 +8,8 @@ Knowledge file for the Strykers Creative Studio GPT. Generated from the `SKILL.m
 
 > New draft skill (October 2026), written from skill 17 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Find a fresh look for a campaign that still looks like the Empire Strykers.
 
 ### When to use
@@ -26,10 +28,11 @@ Find a fresh look for a campaign that still looks like the Empire Strykers.
 2. Propose 2–3 directions. For each:
    - Name and one-line idea.
    - Look: layout, imagery, motion.
-   - How it uses the brand: colors (`#FFFFFF`, `#B8BABC`, `#A3A5A9`, `#6E6E71`, `#000000`, `#953493`, `#9F3E97`), title font by season, original logo.
+   - How it uses the brand: colors (White `#FFFFFF`, Silver Sand `#B8BABC`, Aluminium `#A3A5A9`, Mid Grey `#6E6E71`, Black `#000000`, Plum `#953493`, Rouge `#9F3E97`), title font by season, original logo.
+   - Which Brand Kit messaging pillar it expresses (for example Fast, Fierce, and Fun or Community First, Always) and its Brand Kit asset category.
    - Where inspiration conflicts with brand rules, say which rule wins (the brand does).
    - Example headline using placeholders (`[OPPONENT]`, `[DATE]`).
-3. Recommend one and say why.
+3. Recommend one and say why. The Brand Kit's guide: be bold, be original, bring heritage, bring futuristic flair.
 
 ### Output
 
@@ -51,6 +54,8 @@ Find a fresh look for a campaign that still looks like the Empire Strykers.
 **Use when:** Checks every fact in Empire Strykers graphics and copy (opponents, dates, times, venues, scores, player names, prices) against official sources and labels each VERIFIED, USER-SUPPLIED, NEEDS APPROVAL, or CONFLICT. Use before any Strykers content with event or player details is published.
 
 > New draft skill (October 2026), written from skill 18 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
+
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
 
 No wrong dates, misspelled names, or made-up details in published content.
 
@@ -74,7 +79,7 @@ Use what you can actually open; don't guess a website address.
 ### Steps
 
 1. List every fact in the content: opponent, date, start time, venue, city, score, player names and numbers, prices, promo details.
-2. Check each against an official source.
+2. Check each against an official source. Check branded terms and hashtags against the Brand Kit spelling.
 3. Label each:
    - **VERIFIED:** matches an official source (give the source).
    - **USER-SUPPLIED:** given by the user; not independently checked.
@@ -106,6 +111,8 @@ Then a list of approved fields ready to use, and anything still blocking publica
 
 > New draft skill (October 2026), written from skill 19 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Write captions that sound like the Strykers in both English and Spanish.
 
 ### When to use
@@ -121,14 +128,14 @@ Write captions that sound like the Strykers in both English and Spanish.
 
 ### Brand voice
 
-Energetic, proud, family-friendly, inclusive, rooted in the Inland Empire community. Brand line: "Inspire The Empire."
+Follow the Brand Kit messaging: tagline "Empire Strykers: Inspiring the Empire Through Pro Arena Soccer"; motto "Inspire The Empire"; pillars Community First, Always; Fast, Fierce, and Fun; Underdog Spirit with Big League Swagger; Inspired by Legacy, Building for the Future; Open Doors, Open Hearts; Content That Connects; Inspire Your Empire. Favor the kit's frequently used phrases (Defend The Empire, We Are Empire, Beware The Empire, Rise With Empire, The Greatest Sport On Turf, Futbol Rapido Profesional, Inland Empire's Only True Professional Team).
 
 ### Steps
 
 1. Write the English caption: hook, key detail, call to action.
 2. Write the Spanish caption with the same meaning and energy; adapt, don't translate word for word.
-3. Use arena soccer terms the team already uses. If unsure of a Spanish term, ask. Don't call it "futsal"; that's a different sport.
-4. Add hashtags only from the team's approved list. If there's no list, suggest a few and mark them for approval.
+3. Use the Brand Kit's branded terms, spelled exactly: Goal, Hattrick, Wallascora, Power Play, Power Kill, 6th Attacker, Golaso, Golazo, Blue Card, Yellow Card, Red Card, Fan Fest, Overtime. In Spanish, the sport is "Fútbol Rápido Profesional" (#FutbolRapidoProfesional); don't call it "futsal", which is a different sport.
+4. Add hashtags from the Brand Kit: the "every post" list plus the closest topic list (Gameday, Camps & Clinics, Business Mixer, New Partner, New Player, Stryking Fury, Soccer In 60, TST) and any partner list. Hashtags the kit flags as possible typos get the corrected spelling, marked NEEDS APPROVAL.
 5. Check names, dates, times, and the call to action against the fact list.
 
 ### Output
@@ -164,6 +171,8 @@ Offer a short and a long version if the platform allows.
 
 > New draft skill (October 2026), written from skill 20 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Get every sponsor's name, logo, and placement right.
 
 ### When to use
@@ -183,7 +192,8 @@ Get every sponsor's name, logo, and placement right.
    | Sponsor | Exact name | Logo file(s) | Placement rules | Required wording | Notes |
    | --- | --- | --- | --- | --- | --- |
 
-2. Write the co-brand brief: where each logo goes, its size relative to the Strykers logo, and required wording.
+2. Write the co-brand brief using the Brand Kit lockup rules: logos separated by thin divider lines; with 2 logos, Strykers on the left (horizontal) or top (vertical); with 3 or more, Strykers in the center if the number is odd, on the left if even. Add each logo's size and the required wording.
+   For social posts, add the Brand Kit's "every post" hashtags plus that partner's hashtags (for example National CORE / Hope Thru Housing, Loma Linda, Stater Bros, Verizon).
 3. Use only logo files supplied by the sponsor or the team; never redraw or AI-generate them.
 4. Check the draft against the brief.
 5. Flag anything contractual or unclear as NEEDS APPROVAL for the person who manages that sponsor.

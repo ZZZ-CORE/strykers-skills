@@ -8,6 +8,8 @@ Knowledge file for the Strykers Creative Studio GPT. Generated from the `SKILL.m
 
 > New draft skill (October 2026), written from skill 05 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Turn "make a game-day post" into a brief good enough to produce a first draft, without inventing facts.
 
 ### When to use
@@ -37,9 +39,11 @@ Goal:
 Audience:
 Platform and size:
 Season (title font):
+Brand Kit asset category (e.g. MASL Home Game, Flyers):
 Headline:
 Supporting copy:
 Call to action:
+Hashtags (from the Brand Kit lists):
 Layout notes:
 Required assets (provided? yes/no):
 Facts (value | source | VERIFIED / USER-SUPPLIED / NEEDS APPROVAL):
@@ -65,6 +69,8 @@ Deadline:
 **Use when:** Removes the background from photos of Empire Strykers players, the mascot, or logos to make transparent PNG cutouts, then verifies the transparency and that the subject is unchanged. Use when someone needs a cutout of a player, mascot, jersey, or logo for a graphic.
 
 > New draft skill (October 2026), written from skill 06 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
+
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
 
 Make clean transparent cutouts without changing the person or object.
 
@@ -132,6 +138,8 @@ Also view the cutout on both a dark and a light background to spot halos or left
 
 > New draft skill (October 2026), written from skill 07 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Real players must look like themselves, in their real kit.
 
 ### When to use
@@ -185,6 +193,8 @@ Overall: **OK** or **Needs correction**, with what to fix or a recommendation to
 
 > New draft skill (October 2026), written from skill 08 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Make templates the team can fill in quickly and keep on brand.
 
 ### When to use
@@ -209,11 +219,12 @@ Make templates the team can fill in quickly and keep on brand.
 ### Steps
 
 1. Set the canvas size per platform. Common starting points: 1080×1080, 1080×1350, 1080×1920. Check current platform guidance.
-2. Lay out with the official colors (`#FFFFFF`, `#B8BABC`, `#A3A5A9`, `#6E6E71`, `#000000`, `#953493`, `#9F3E97`) and brand fonts.
-3. Put every changing detail in a clearly named placeholder: `[OPPONENT]`, `[DATE]`, `[TIME]`, `[VENUE]`, `[SCORE]`, `[PLAYER NAME]`, `[PHOTO]`, `[TICKET LINK]`.
-4. Leave a fixed spot for the original logo file; don't redraw it.
-5. Keep text and logos out of areas covered by app buttons on vertical formats.
-6. Keep elements editable (separate text boxes and image frames).
+2. Pick the Brand Kit asset category (Office News, Official News, Team News Oct–Apr, Team News May–Sep, Flyers, Published, MASL Home Game, MASL Away Game) and use its background, gradient, border, logo fill, and text fill.
+3. Lay out with the official colors (White `#FFFFFF`, Silver Sand `#B8BABC`, Aluminium `#A3A5A9`, Mid Grey `#6E6E71`, Black `#000000`, Plum `#953493`, Rouge `#9F3E97`) and brand fonts.
+4. Put every changing detail in a clearly named placeholder: `[OPPONENT]`, `[DATE]`, `[TIME]`, `[VENUE]`, `[SCORE]`, `[PLAYER NAME]`, `[PHOTO]`, `[TICKET LINK]`.
+5. Leave a fixed spot for the original logo file; don't redraw it.
+6. Keep text and logos out of areas covered by app buttons on vertical formats.
+7. Keep elements editable (separate text boxes and image frames).
 
 ### Output
 

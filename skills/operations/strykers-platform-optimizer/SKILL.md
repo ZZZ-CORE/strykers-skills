@@ -7,6 +7,8 @@ description: Prepares Empire Strykers graphics and videos for each publishing pl
 
 > New draft skill (October 2026), written from skill 23 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Make each version look right on the platform it's posted to.
 
 ## When to use

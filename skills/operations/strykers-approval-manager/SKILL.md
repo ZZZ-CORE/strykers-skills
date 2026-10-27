@@ -7,6 +7,8 @@ description: Tracks Empire Strykers creative through draft, review, changes, app
 
 > New draft skill (October 2026), written from skill 21 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Keep a clear record of who reviewed and approved each piece before it goes out.
 
 ## When to use

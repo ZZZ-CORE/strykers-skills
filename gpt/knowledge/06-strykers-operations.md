@@ -8,6 +8,8 @@ Knowledge file for the Strykers Creative Studio GPT. Generated from the `SKILL.m
 
 > New draft skill (October 2026), written from skill 21 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Keep a clear record of who reviewed and approved each piece before it goes out.
 
 ### When to use
@@ -55,6 +57,8 @@ And a release decision: **Release** or **Hold** (with the reason).
 
 > New draft skill (October 2026), written from skill 22 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
 
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
+
 Know where every asset came from and whether you're allowed to use it.
 
 ### When to use
@@ -93,6 +97,8 @@ Rights status: **Cleared**, **Limited** (say how), **Unknown**, or **Expired**.
 **Use when:** Prepares Empire Strykers graphics and videos for each publishing platform (sizes, aspect ratios, safe zones, text readability, export quality) and makes platform-specific versions. Use when one piece of content needs to go out on several platforms, or before export.
 
 > New draft skill (October 2026), written from skill 23 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
+
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
 
 Make each version look right on the platform it's posted to.
 
@@ -139,6 +145,8 @@ Platform rules change, so confirm against each platform's current guidance befor
 **Use when:** Plans and tracks the Empire Strykers content calendar (campaign themes, deadlines, production stages) and reviews engagement data the team supplies to recommend improvements. Use for weekly or season planning, tracking what's in production, or reviewing how posts performed.
 
 > New draft skill (October 2026), written from skill 24 in `strykers-creative-studio-gpt/docs/24-SKILL-LIBRARY.md`. Not yet tested in production; check the output before relying on it.
+
+> **Brand Kit first:** follow the Empire Strykers Official Brand Kit (`BRAND-KIT.md`, included in this skill's ZIP and in the repository's `brand-kit/` folder with the original PDF). It wins over anything in this skill.
 
 Plan what goes out when, track it, and learn from real results.
 
